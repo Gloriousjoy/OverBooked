@@ -9,12 +9,12 @@ const Header = () => {
             <header className='header'>
                 <Navbar />
                 <div className='header-content flex flex-c text-center text-white'>
-                    <h2 className='header-title text-capitalize'>find a book.</h2><br />
-                    <p className='header-text fs-18 fw-3'> To learn to read is to light a fire; every syllable that is spelled out is a spark. —Victor Hugo</p>
+                    <h2 className='header-text fs-18 fw-3'>To learn to read is to light a fire; every syllable that is spelled out is a spark. —Victor Hug</h2><br />
+                    <p className='header-title text-capitalize'>Discover a whole other world</p>
                     <SearchForm />
                 </div>
             </header>
         </div>
     )
 }
-export default Header;
+export default Header

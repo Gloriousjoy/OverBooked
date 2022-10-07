@@ -1,7 +1,7 @@
-import React, {useState, useContext, useEffect} from 'react';
+import React, {useState, createContext, useEffect} from 'react';
 import { useCallback } from 'react';
 const URL = "http://openlibrary.org/search.json?title=";
-const AppContext = React.createContext();
+const AppContext = createContext();
 
 const AppProvider = ({children}) => {
     const [searchTerm, setSearchTerm] = useState("the lost world");
@@ -62,7 +62,7 @@ const AppProvider = ({children}) => {
 }
 
 export const useGlobalContext = () => {
-    return useContext(AppContext);
+    return createContext(AppContext);
 }
 
 export {AppContext, AppProvider};
