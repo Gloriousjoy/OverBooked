@@ -16,8 +16,8 @@ const About = () => {
           </div>
           <div className='about-text'>
             <h2 className='about-title fs-26 ls-1'>About OverBooked</h2>
-            <p className='fs-17'></p>
-            <p className='fs-17'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dicta, possimus inventore eveniet atque voluptatibus repellendus aspernatur illo aliquam dignissimos illum. Commodi, porro omnis dolore amet neque modi quas eum!</p>
+            <p className='fs-17'>Inside a book's pages lie an amazing world where your guide is your imagination and the limit is how much time you can spare!</p>
+            <p className='fs-17'>Here is a book club for those who are willing to explore and nature your reading habbits!</p>
           </div>
         </div>
       </div>
