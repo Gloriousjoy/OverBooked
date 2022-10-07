@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
-import { AppContext } from '../../context';
 import "./SearchForm.css";
 import { useGlobalContext } from '../../context';
 
