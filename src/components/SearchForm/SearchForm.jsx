@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import { FaSearch } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
-import { useGlobalContext } from '../../context';
+import { AppContext } from '../../context';
 import "./SearchForm.css";
+import { useGlobalContext } from '../../context';
 
 const SearchForm = () => {
     const { setSearchTerm, setResultTitle } = useGlobalContext();
@@ -13,6 +14,7 @@ const SearchForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         let tempSearchTerm = searchText.current.value.trim();
+        console.log(setSearchTerm);
         if ((tempSearchTerm.replace(/[^\w\s]/gi, "")).length === 0) {
             setSearchTerm("the lost world");
             setResultTitle("Please Enter Something ...");
