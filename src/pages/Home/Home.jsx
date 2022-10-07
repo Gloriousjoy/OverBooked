@@ -7,11 +7,10 @@ import { Outlet } from 'react-router-dom';
 const Home = () => {
   return (
     <main>
-        <Header />
-        <Outlet />
+      <Header />
+      <Outlet />
     </main>
   )
 }
 
 export default Home
-Footer

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import bookShelf from "../../images/bookShelf"
+// import bookShelf from "../../images/bookShelf"
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
 
         <div className='about-content grid'>
           <div className='about-img'>
-            <img src = {aboutImg} alt = "" />
+            {/* <img src = {bookShelf} alt = "" /> */}
           </div>
           <div className='about-text'>
             <h2 className='about-title fs-26 ls-1'>About OverBooked</h2>

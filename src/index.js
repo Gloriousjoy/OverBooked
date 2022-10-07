@@ -9,7 +9,6 @@ import BookDetails from "./components/BookDetails/BookDetails";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <AppProvider>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
@@ -19,7 +18,6 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-  </AppProvider>
 );
 
 
