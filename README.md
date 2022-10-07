@@ -5,7 +5,7 @@
 # Description; 
 
 # Setup instructions: 
-The user can search for a book they want to read. The user can review the books before they choose to read a specific book since a preview is available.
+The user can search for a book they want to read. The user can review the books before they choose to read a specific book since a preview is available where the subject of the project is displayed. the author is also listed along side the cover of the book. Total editions is also displayed .
 # Link to the live site:
 https://ornate-chimera-9b0a68.netlify.app/book
 
