@@ -1,8 +1,9 @@
 .about{
     padding: 3rem 0;
+    background-image:src='src/images/bookShelf.jpg' ;
 }
 .about-content{
-    gap: 4rem;
+    gap: 5rem;
 }
 .about-title{
     margin: 1rem 0;
@@ -11,7 +12,7 @@
     max-width: 520px;
 }
 .about-text p{
-    margin: 1.8rem 0;
+    margin: 2.0rem 0;
     opacity: 0.8;
 }
 
