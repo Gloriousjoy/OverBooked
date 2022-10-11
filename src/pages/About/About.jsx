@@ -7,7 +7,7 @@ const About = () => {
     <section className='about'>
       <div className='container'>
         <div className='section-title'>
-          <h2>About OverBooked</h2>
+          <h2>OverBooked</h2>
         </div>
 
         <div className='about-content grid'>
